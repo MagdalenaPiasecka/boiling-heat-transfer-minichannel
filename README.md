@@ -1,4 +1,4 @@
-# Boiling Heat Transfer in Minichannels
+# Boiling Heat Transfer in Minichannels (research grant NCN-OPUS-UMO-2025_57_B_ST8_00907)
 
 Open-source tools and documentation for research on flow boiling heat transfer in annular and rectangular minichannels.
 
