@@ -1,33 +1,28 @@
-# Boiling Heat Transfer in Minichannels (research grant NCN-OPUS-UMO-2025_57_B_ST8_00907)
+# Boiling Heat Transfer in Minichannels
 
 Open-source tools and documentation for research on flow boiling heat transfer in annular and rectangular minichannels.
 
-## Project scope
+## Overview
 
-This repository supports research on:
+This repository is the public software and documentation layer of a research project focused on experimental and computational studies of heat transfer in compact minichannel systems.
+
+The repository is intended for:
+- public code and analysis tools,
+- workflow documentation,
+- example notebooks,
+- selected example datasets,
+- reproducible engineering research support.
+
+## Scientific scope
+
+The project covers:
 - flow boiling and single-phase heat transfer,
 - annular and rectangular minichannel geometries,
-- surfaces with controlled wettability,
+- controlled surface wettability,
+- infrared thermography and flow visualization,
 - CFD modelling,
 - Trefftz-based inverse methods,
-- machine-learning-based correlation development.
-
-## Main objectives
-
-The project aims to develop validated and physically interpretable predictive tools for heat transfer in compact minichannel systems by combining:
-- high-resolution experiments,
-- computational fluid dynamics (CFD),
-- analytical-inverse methods,
-- artificial intelligence and machine learning.
-
-## Planned public content
-
-This repository is intended for:
-- Python tools for data processing and model development,
-- documentation of workflows,
-- example notebooks,
-- benchmark-ready example datasets,
-- materials supporting reproducible research.
+- machine-learning-assisted model development.
 
 ## Repository structure
 
@@ -38,9 +33,17 @@ This repository is intended for:
 - `data_examples/` – small public example datasets
 - `figures/` – figures used in documentation
 
-## Research background
+## Public repository policy
 
-The project focuses on flow boiling heat transfer in annular and rectangular minichannels and integrates experiments, CFD, Trefftz-based analytical-inverse modelling, and machine learning.
+This repository may contain code, documentation, example notebooks, and selected public-ready data examples.
+
+It should not contain:
+- unpublished manuscript drafts,
+- confidential project administration files,
+- full raw experimental archives,
+- internal meeting notes,
+- reviewer correspondence,
+- restricted institutional materials.
 
 ## Status
 
