@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as follows."
+type: software
+title: "Boiling Heat Transfer in Minichannels"
+version: 0.1.0
+date-released: 2026-03-20
+license: MIT
+authors:
+  - family-names: "Piasecka"
+    given-names: "Magdalena Janina"
+    affiliation: "Kielce University of Technology"
+repository-code: "https://github.com/TWOJ_LOGIN/boiling-heat-transfer-minichannel"
+abstract: >
+  Open-source tools and documentation for research on flow boiling heat transfer
+  in annular and rectangular minichannels, integrating experiments, CFD,
+  Trefftz-based inverse methods, and machine learning.
+keywords:
+  - heat transfer
+  - flow boiling
+  - minichannels
+  - annular channels
+  - rectangular channels
+  - CFD
+  - Trefftz methods
+  - machine learning
+  - infrared thermography
+  - two-phase flow
