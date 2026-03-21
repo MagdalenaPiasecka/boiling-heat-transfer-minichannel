@@ -1,1 +1,3 @@
-docs/publications_files/README.md
+# publications_files
+
+Public PDF files of selected published project-related articles.
