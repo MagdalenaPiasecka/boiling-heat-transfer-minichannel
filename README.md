@@ -26,12 +26,8 @@ The project covers:
 
 ## Repository structure
 
-- `docs/` – project and method documentation
-- `src/` – source code
-- `notebooks/` – analysis notebooks
-- `examples/` – example workflows
-- `data_examples/` – small public example datasets
-- `figures/` – figures used in documentation
+- `data_examples` – example workflows, data or results
+- `publications,posters/files
 
 ## Public repository policy
 
