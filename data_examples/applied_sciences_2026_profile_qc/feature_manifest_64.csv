@@ -1,0 +1,65 @@
+model_input_order,feature_name,feature_group,definition,unit,processing_stage
+1,nan_count,missingness,Number of missing T_irt_C values before interpolation.,count,before missing-value interpolation
+2,nan_fraction,missingness,Fraction of missing T_irt_C values before interpolation.,dimensionless,before missing-value interpolation
+3,nan_segment_count,missingness,Number of contiguous missing-value segments.,count,before missing-value interpolation
+4,max_nan_run_fraction,missingness,Longest contiguous missing run divided by profile length.,dimensionless,before missing-value interpolation
+5,T_min_C,thermal_level,Minimum interpolated T_irt_C.,°C,after missing-value interpolation
+6,T_max_C,thermal_level,Maximum interpolated T_irt_C.,°C,after missing-value interpolation
+7,T_mean_C,thermal_level,Mean interpolated T_irt_C.,°C,after missing-value interpolation
+8,T_median_C,thermal_level,Median interpolated T_irt_C.,°C,after missing-value interpolation
+9,T_std_C,thermal_level,Population standard deviation of T_irt_C.,°C,after missing-value interpolation
+10,T_mad_C,thermal_level,Median absolute deviation of T_irt_C.,°C,after missing-value interpolation
+11,T_iqr_C,thermal_level,Interquartile range of T_irt_C.,°C,after missing-value interpolation
+12,T_p05_C,thermal_level,Fifth percentile of T_irt_C.,°C,after missing-value interpolation
+13,T_p95_C,thermal_level,Ninety-fifth percentile of T_irt_C.,°C,after missing-value interpolation
+14,T_range_C,thermal_level,Full temperature range.,°C,after missing-value interpolation
+15,T_robust_range_C,thermal_level,P95 minus P05 with a 1 degC lower normalization bound.,°C,after missing-value interpolation
+16,T_end_delta_C,thermal_level,Last profile value minus first profile value.,°C,after missing-value interpolation
+17,T_edge_mean_delta_C,thermal_level,Mean of final 10% minus mean of initial 10%.,°C,after missing-value interpolation
+18,linear_slope_C_m,global_shape,Least-squares global temperature slope versus x_m.,°C/m,after missing-value interpolation
+19,linear_r2,global_shape,R-squared of global linear temperature trend.,dimensionless,after missing-value interpolation
+20,detrended_std_C,global_shape,Standard deviation after removal of global linear trend.,°C,after missing-value interpolation
+21,detrended_std_norm,global_shape,Detrended standard deviation divided by robust range.,dimensionless,after missing-value interpolation
+22,argmin_x_norm,global_shape,Normalized spatial position of minimum temperature.,dimensionless,after missing-value interpolation
+23,argmax_x_norm,global_shape,Normalized spatial position of maximum temperature.,dimensionless,after missing-value interpolation
+24,gradient_centroid_x_norm,global_shape,Absolute-gradient-weighted normalized spatial centroid.,dimensionless,after missing-value interpolation
+25,dT_mean_C,first_difference,Mean first difference along profile index.,°C,after missing-value interpolation
+26,dT_std_C,first_difference,Standard deviation of first differences.,°C,after missing-value interpolation
+27,dT_abs_mean_C,first_difference,Mean absolute first difference.,°C,after missing-value interpolation
+28,dT_abs_q95_C,first_difference,Ninety-fifth percentile of absolute first differences.,°C,after missing-value interpolation
+29,dT_abs_max_C,first_difference,Maximum absolute first difference.,°C,after missing-value interpolation
+30,dT_sign_change_fraction,first_difference,Fraction of adjacent nonzero first differences changing sign.,dimensionless,after missing-value interpolation
+31,total_variation_C,first_difference,Sum of absolute first differences.,°C,after missing-value interpolation
+32,total_variation_norm,first_difference,Total variation divided by robust temperature range.,dimensionless,after missing-value interpolation
+33,gradient_abs_q95_C_m,first_difference,Ninety-fifth percentile of absolute physical gradient.,°C/m,after missing-value interpolation
+34,gradient_abs_max_C_m,first_difference,Maximum absolute physical gradient.,°C/m,after missing-value interpolation
+35,d2T_abs_mean_C,second_difference,Mean absolute second difference.,°C,after missing-value interpolation
+36,d2T_abs_q95_C,second_difference,Ninety-fifth percentile of absolute second differences.,°C,after missing-value interpolation
+37,d2T_abs_max_C,second_difference,Maximum absolute second difference.,°C,after missing-value interpolation
+38,d2T_abs_q95_norm,second_difference,Second-difference Q95 divided by robust range.,dimensionless,after missing-value interpolation
+39,d2T_abs_max_norm,second_difference,Maximum second difference divided by robust range.,dimensionless,after missing-value interpolation
+40,flat_diff_fraction_0p002C,flatline,Fraction of adjacent differences not exceeding 0.002 degC.,dimensionless,after missing-value interpolation
+41,flat_diff_fraction_0p010C,flatline,Fraction of adjacent differences not exceeding 0.010 degC.,dimensionless,after missing-value interpolation
+42,flat_diff_fraction_adaptive,flatline,Fraction of adjacent differences below adaptive robust tolerance.,dimensionless,after missing-value interpolation
+43,longest_flat_run_fraction,flatline,Longest adaptive near-zero-difference run divided by profile length.,dimensionless,after missing-value interpolation
+44,spike_residual_q99_C,spike_roughness,Q99 of absolute residual from a five-point median filter.,°C,after missing-value interpolation
+45,spike_residual_max_C,spike_roughness,Maximum absolute residual from a five-point median filter.,°C,after missing-value interpolation
+46,spike_residual_q99_norm,spike_roughness,Median-filter residual Q99 divided by robust range.,dimensionless,after missing-value interpolation
+47,spike_residual_max_norm,spike_roughness,Maximum median-filter residual divided by robust range.,dimensionless,after missing-value interpolation
+48,roughness_rms_C,spike_roughness,RMS residual from a local moving-average trend.,°C,after missing-value interpolation
+49,roughness_mad_C,spike_roughness,MAD residual from a local moving-average trend.,°C,after missing-value interpolation
+50,roughness_rms_norm,spike_roughness,Roughness RMS divided by robust range.,dimensionless,after missing-value interpolation
+51,roughness_mad_norm,spike_roughness,Roughness MAD divided by robust range.,dimensionless,after missing-value interpolation
+52,gradient_lag1_autocorr,spike_roughness,Lag-one autocorrelation of first differences.,dimensionless,after missing-value interpolation
+53,local_std_max_to_median,spike_roughness,Maximum local standard deviation divided by median local standard deviation.,dimensionless,after missing-value interpolation
+54,step_contrast_w02_C,multiscale_step,Maximum adjacent-window mean contrast at 2% profile scale.,°C,after missing-value interpolation
+55,step_contrast_w05_C,multiscale_step,Maximum adjacent-window mean contrast at 5% profile scale.,°C,after missing-value interpolation
+56,step_contrast_w10_C,multiscale_step,Maximum adjacent-window mean contrast at 10% profile scale.,°C,after missing-value interpolation
+57,step_contrast_w02_norm,multiscale_step,Two-percent step contrast divided by robust range.,dimensionless,after missing-value interpolation
+58,step_contrast_w05_norm,multiscale_step,Five-percent step contrast divided by robust range.,dimensionless,after missing-value interpolation
+59,step_contrast_w10_norm,multiscale_step,Ten-percent step contrast divided by robust range.,dimensionless,after missing-value interpolation
+60,local_slope_w20_max_C_m,local_drift_edge,Maximum absolute endpoint slope over 20% profile windows.,°C/m,after missing-value interpolation
+61,local_slope_w40_max_C_m,local_drift_edge,Maximum absolute endpoint slope over 40% profile windows.,°C/m,after missing-value interpolation
+62,edge_dT_ratio,local_drift_edge,Maximum edge mean absolute difference divided by global mean absolute difference.,dimensionless,after missing-value interpolation
+63,left_edge_dT_mean_C,local_drift_edge,Mean absolute first difference over the left 10% edge.,°C,after missing-value interpolation
+64,right_edge_dT_mean_C,local_drift_edge,Mean absolute first difference over the right 10% edge.,°C,after missing-value interpolation
